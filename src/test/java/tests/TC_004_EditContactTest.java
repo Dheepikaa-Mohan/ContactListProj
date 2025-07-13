@@ -1,0 +1,92 @@
+package tests;
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import base.ProjectSpecificationMethods;
+import pages.AddContactPage;
+import pages.EditContact;
+import pages.HomePage;
+
+public class TC_004_EditContactTest extends ProjectSpecificationMethods {
+	        @Test(priority = 0)
+	        public void editContactTest() throws InterruptedException {
+	        	HomePage obj2=new HomePage(driver);
+	    		obj2.enterEmail("sankari28@gmail.com")
+	    		.enterPassword("Dheeru@123")
+	    		.clickLogin();
+	    		driver.findElement(By.xpath("//td[text()='Kumares D']")).click();
+	        	 EditContact editContact = new EditContact(driver);
+	        	 
+	        	 editContact.clickEdit();
+	        	 //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	        	// WebElement updatePhone= wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id=\"phone\"]")));
+	        	Thread.sleep(5000);
+	        	 editContact.updatePhone("9962055210");
+	        	 editContact.clickSubmit();
+	        	 WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10));
+	        	// wait.until(ExpectedConditions.visibilityOf(Edit.getUpdatedPhone()));
+	        	 WebElement updatedPhone = wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@id=\"phone\"]")));
+
+	             // Assert.assertEquals(edit.getFirstRowPhone(), sheetname)
+	        	Assert.assertEquals(updatedPhone.getText(), "9962055210", "Phonenum not updated correctly");
+	        	System.out.println("The value is: " + driver.findElement(By.xpath("//span[@id='phone']")).getText());
+
+	        	
+	        }
+	        
+		@Test(priority = 1)
+		public void verifyEditCancelRetainsOriginalDetails() throws InterruptedException {
+		    HomePage home = new HomePage(driver);
+		    home.enterEmail("sankari28@gmail.com")
+		        .enterPassword("Dheeru@123")
+		        .clickLogin();
+
+		    EditContact editContact = new EditContact(driver);
+		    String originalPhone =driver.findElement(By.xpath("//td[text()='9962055210']")).getText();
+		    editContact.selectName();
+		  
+		   // String originalPhone = editContact.getFirstRowPhone();
+
+		    editContact.clickEdit();
+		    Thread.sleep(2000);
+		    editContact.updatePhone("1234554321");
+		    editContact.clickCancel();
+            Thread.sleep(5000);
+		 //   String phoneAfterCancel = editContact.getFirstRowPhone();
+		   // String originalPhone = editContact.getFirstRowPhone();
+         //   String originalPhone =driver.findElement(By.xpath("//td[text()='9962055210']")).getText();
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            WebElement phoneAfterCancel = driver.findElement(By.xpath("//span[text()='9962055210']"));
+            
+		    Assert.assertEquals(phoneAfterCancel.getText(), originalPhone, "Phone number should remain unchanged after cancel");
+		    System.out.println("Cancel edit worked as expected.");
+		
+		}
+
+		@Test(priority = 2)
+		public void verifyMissingLastNameTriggersValidationError() throws InterruptedException {
+		    HomePage home = new HomePage(driver);
+		    home.enterEmail("sankari28@gmail.com")
+		        .enterPassword("Dheeru@123")
+		        .clickLogin();
+
+		    EditContact editContact = new EditContact(driver);
+		    editContact.selectName();
+		    editContact.clickEdit();
+		    Thread.sleep(2000);
+		    editContact.clearLastName(); // Intentionally remove last name
+		    editContact.updatePhone("5432165432");
+		    editContact.clickSubmit();
+WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+ WebElement errorMsg = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Validation failed')]")));
+
+		    Assert.assertTrue(errorMsg.getText().contains("lastName"), "Expected validation error for missing last name");
+		    System.out.println("Validation error shown as expected: " + errorMsg.getText());
+		}
+		
+}
