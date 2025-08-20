@@ -19,7 +19,7 @@ public class EditContact extends ProjectSpecificationMethods{
 	 @FindBy(css = ".contact-item")
 	    public List<WebElement> contactRows;
       @FindBy(xpath="//td[text()='Kumares D']")
-WebElement Name;
+       WebElement Name;
       @FindBy(id="edit-contact")
       WebElement editContactButton;
 	   @FindBy(xpath="//input[@id=\"lastName\"]") 
@@ -63,13 +63,6 @@ public void selectName() {
 	        public void clickEdit() {
 	        	editContactButton.click();
 	        }
-	 //  public void updatedPhonevalue() {
-		//   updatedPhone.click();
-
-	 //   public String getFirstRowEmail() {
-	   //     return contactRows.get(0).findElement(By.cssSelector(".email-col")).getText();
-	    //}
-	    
 	    public String getErrorText() {
 	        return errorMessage.getText();
 	    }

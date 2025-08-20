@@ -23,11 +23,11 @@ public class TC_005_DeleteContactTest extends ProjectSpecificationMethods {
 		public void DeleteContactTest() throws InterruptedException {
 		DeleteContact obj5=new DeleteContact(driver);
 		HomePage obj2=new HomePage(driver);
-		obj2.enterEmail("guviuser282@gmail.com")
-		.enterPassword("Sai@12345.")
+		obj2.enterEmail("agilan12@gmail.com")
+		.enterPassword("agilan@123")
 		.clickLogin();
 	
-		WebElement deletecont=driver.findElement(By.xpath("//td[text()='kumares D']"));
+		WebElement deletecont=driver.findElement(By.xpath("//td[text()='Agilan A']"));
 		deletecont.click();
 		obj5.clickDelete();
 		
@@ -40,14 +40,14 @@ public class TC_005_DeleteContactTest extends ProjectSpecificationMethods {
 		 alert.accept();
 		 
 		WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(5));
-		wait1.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//td[text()='kumares D']")));
+		wait1.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//td[text()='Agilan A']")));
 	    boolean isContactStillPresent =obj5.isContactStillPresent(deletecont);
 	    Assert.assertFalse(isContactStillPresent,"Deleted contact still appears after deletion");
 	    System.out.println("Contact is deleted");
-	    
-		    driver.navigate().refresh();
-		    boolean isContactDeleted= obj5.isContactinvisible(By.xpath("//td[text()='kumares D']"));
-	        Assert.assertTrue(isContactDeleted, "Deleted contact still appears after page refresh");
-	        System.out.println("Contact successfully deleted and not visible after refresh.");
+	     
+		 driver.navigate().refresh();
+		 boolean isContactDeleted= obj5.isContactinvisible(By.xpath("//td[text()='Agilan A']"));
+	     Assert.assertTrue(isContactDeleted, "Deleted contact still appears after page refresh");
+	     System.out.println("Contact successfully deleted and not visible after refresh.");
 		   
 	}}

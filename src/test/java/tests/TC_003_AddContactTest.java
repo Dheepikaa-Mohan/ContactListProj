@@ -61,12 +61,13 @@ public class TC_003_AddContactTest extends ProjectSpecificationMethods {
 	if(testType.equals("duplicateContact")) {
 		 List<WebElement> contactElements = driver.findElements(
 		            By.xpath("//td[text()='sai123@gmail.com']")) ;
-		   
-
+		  
 		        int actualCount = contactElements.size();
-		        int expectedCount = 6;
+		        int expectedCount = 2;
 		        Assert.assertEquals(actualCount, expectedCount,
 		                "Expected 2 contacts with the same email, but found " + actualCount);
 		        System.out.println("value is:"+actualCount);
-		    }}}
+		    }
+	}
+}
 	

@@ -14,23 +14,18 @@ import pages.AddContactPage;
 import pages.HomePage;
 import pages.LoginPage;
 
-public class TC_002_HomePage extends ProjectSpecificationMethods {
+public class TC_002_LogInTest extends ProjectSpecificationMethods {
 	
-	@FindBy(xpath="//span[text()='Incorrect username or password']")
-	WebElement noUser;
 @BeforeTest
 	public void setup() throws IOException {
 		sheetname="LogInSheet";
 	}
 	@Test(dataProvider = "readData")
 	public static void homepagedata(String Email,String Password,String testType, String expectedMessage) {
-		//ProjectSpecificationMethods obj=new ProjectSpecificationMethods();
-		//obj.browserLaunchAndUrlLoad("chrome","https://thinking-tester-contact-list.herokuapp.com/");
 		new HomePage(driver)
 		.enterEmail(Email)
 .enterPassword(Password)
 .clickLogin()
 .validateLogIn(testType,expectedMessage);
-//driver.close();
 	}
 }

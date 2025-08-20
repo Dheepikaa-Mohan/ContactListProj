@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.TC_003_AddContactTest">
+      <class name="tests.TC_008_UiTest">
         <methods>
           <include name="browserLaunchAndUrlLoad"/>
           <include name="closeBrowser"/>
-          <include name="setup"/>
-          <include name="addcontactTest" invocation-numbers="3"/>
+          <include name="UiTest"/>
         </methods>
-      </class> <!-- tests.TC_003_AddContactTest -->
+      </class> <!-- tests.TC_008_UiTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

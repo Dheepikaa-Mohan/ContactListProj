@@ -32,7 +32,7 @@ public class Utility {
 	driver.close();
 	}
 	public static String[][] readExcel(String sheetname) throws IOException {
-		XSSFWorkbook book =new XSSFWorkbook("C:\\Users\\surya\\eclipse-workspace\\demoblaze\\src\\test\\resources\\Data\\list.xlsx");
+		XSSFWorkbook book =new XSSFWorkbook("C:\\Users\\surya\\eclipse-workspace\\ContactListProj\\src\\test\\resources\\Data\\list.xlsx");
 		
 		XSSFSheet sheet = book.getSheet(sheetname);
 				int rowCount = sheet.getLastRowNum();

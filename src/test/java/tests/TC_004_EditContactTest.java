@@ -23,17 +23,14 @@ public class TC_004_EditContactTest extends ProjectSpecificationMethods {
 	        	 EditContact editContact = new EditContact(driver);
 	        	 
 	        	 editContact.clickEdit();
-	        	 //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	        	// WebElement updatePhone= wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id=\"phone\"]")));
 	        	Thread.sleep(5000);
-	        	 editContact.updatePhone("9962055210");
+	        	 editContact.updatePhone("9962055411");
 	        	 editContact.clickSubmit();
 	        	 WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10));
-	        	// wait.until(ExpectedConditions.visibilityOf(Edit.getUpdatedPhone()));
 	        	 WebElement updatedPhone = wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@id=\"phone\"]")));
 
-	             // Assert.assertEquals(edit.getFirstRowPhone(), sheetname)
-	        	Assert.assertEquals(updatedPhone.getText(), "9962055210", "Phonenum not updated correctly");
+	             
+	        	Assert.assertEquals(updatedPhone.getText(), "9962055411", "Phonenum not updated correctly");
 	        	System.out.println("The value is: " + driver.findElement(By.xpath("//span[@id='phone']")).getText());
 
 	        	
@@ -47,21 +44,16 @@ public class TC_004_EditContactTest extends ProjectSpecificationMethods {
 		        .clickLogin();
 
 		    EditContact editContact = new EditContact(driver);
-		    String originalPhone =driver.findElement(By.xpath("//td[text()='9962055210']")).getText();
+		    String originalPhone =driver.findElement(By.xpath("//td[text()='9962055411']")).getText();
 		    editContact.selectName();
-		  
-		   // String originalPhone = editContact.getFirstRowPhone();
-
+		 
 		    editContact.clickEdit();
 		    Thread.sleep(2000);
 		    editContact.updatePhone("1234554321");
 		    editContact.clickCancel();
             Thread.sleep(5000);
-		 //   String phoneAfterCancel = editContact.getFirstRowPhone();
-		   // String originalPhone = editContact.getFirstRowPhone();
-         //   String originalPhone =driver.findElement(By.xpath("//td[text()='9962055210']")).getText();
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-            WebElement phoneAfterCancel = driver.findElement(By.xpath("//span[text()='9962055210']"));
+            WebElement phoneAfterCancel = driver.findElement(By.xpath("//span[text()='9962055411']"));
             
 		    Assert.assertEquals(phoneAfterCancel.getText(), originalPhone, "Phone number should remain unchanged after cancel");
 		    System.out.println("Cancel edit worked as expected.");
@@ -79,7 +71,7 @@ public class TC_004_EditContactTest extends ProjectSpecificationMethods {
 		    editContact.selectName();
 		    editContact.clickEdit();
 		    Thread.sleep(2000);
-		    editContact.clearLastName(); // Intentionally remove last name
+		    editContact.clearLastName();
 		    editContact.updatePhone("5432165432");
 		    editContact.clickSubmit();
 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -88,5 +80,4 @@ WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		    Assert.assertTrue(errorMsg.getText().contains("lastName"), "Expected validation error for missing last name");
 		    System.out.println("Validation error shown as expected: " + errorMsg.getText());
 		}
-		
 }

@@ -9,9 +9,9 @@ import base.ProjectSpecificationMethods;
 
 public class AddContactPage extends ProjectSpecificationMethods{
 	@FindBy(xpath="//input[@id=\"firstName\"]")
-	WebElement textFirstName;
+	public WebElement textFirstName;
     @FindBy(xpath="//input[@id=\"lastName\"]") 
-    WebElement textLastName;
+     public WebElement textLastName;
     @FindBy(xpath="//input[@id=\"birthdate\"]") 
     WebElement textDOB;
     @FindBy(xpath="//input[@id=\"email\"]") 
@@ -19,9 +19,9 @@ public class AddContactPage extends ProjectSpecificationMethods{
     @FindBy(xpath="//input[@id=\"phone\"]")
     WebElement textPhone;
     @FindBy(xpath="//input[@id=\"street1\"]") 
-    WebElement textStreet1;
+    public WebElement textStreet1;
     @FindBy(xpath="//input[@id=\"street2\"]") 
-    WebElement textStreet2;
+    public WebElement textStreet2;
     @FindBy(xpath="//input[@id=\"city\"]") 
     WebElement textCity;
     @FindBy(xpath="//input[@id=\"stateProvince\"]") 

@@ -10,6 +10,8 @@ import org.testng.annotations.Test;
 import base.ProjectSpecificationMethods;
 import pages.HomePage;
 
+
+
 public class TC_001_SignUpTest extends ProjectSpecificationMethods {
 	
 	@BeforeTest
