@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners>
+<listener class-name="utils.Listeners"></listener>
+</listeners>
+<parameter name="url" value="https://thinking-tester-contact-list.herokuapp.com/"></parameter>
+  <test thread-count="5" name="ChromeTest">
+  <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+    <class name="tests.TC_001_SignUpTest"/>
+     <class name="tests.TC_002_LogInTest"/>
+      <class name="tests.TC_003_AddContactTest"/>
+       <class name="tests.TC_004_EditContactTest"/>
+       <class name="tests.TC_005_DeleteContactTest"/>
+      <class name="tests.TC_006_SessionNavigationTest"/>
+       </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="EdgeTest">
+   <parameter name="browser" value="Edge"></parameter>
+    <classes>
+       <class name="tests.TC_007_InputValidationTest"/>
+      <class name="tests.TC_008_UiTest"/>
+       </classes>
+  </test> <!-- Test -->
+ </suite> <!-- Suite -->

@@ -20,6 +20,9 @@ public class TC_003_AddContactTest extends ProjectSpecificationMethods {
 @BeforeTest
 	public void setup() throws IOException {
 		sheetname="AddContact";
+		testName="Add Contact Test";
+		testDescription="Testing the application using adding contacts with different values";
+		testAuthor=" Dheepikaa M G ";
 }
 	@Test(dataProvider = "readData")
 	public static void addcontactTest(String firstName,String lastName,String dob,String email,String phone,String address1,String address2,String city,String state,String postalCode,String country,String testType,String expectedMessage) {
@@ -28,11 +31,11 @@ public class TC_003_AddContactTest extends ProjectSpecificationMethods {
 		.enterPassword("Sai@12345.")
 		.clickLogin();
 	
-		ContactList obj3=new ContactList(driver);
-		obj3.clickContact();
-		AddContactPage obj4=new AddContactPage(driver);
+		ContactList clist=new ContactList(driver);
+		clist.clickContact();
+		AddContactPage addcpage=new AddContactPage(driver);
 	
-		obj4.enterFirstName(firstName)
+		addcpage.enterFirstName(firstName)
 		.enterLastName(lastName)
 		.enterDOB(dob)
 		.enterEmail(email)

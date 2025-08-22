@@ -1,6 +1,9 @@
 package tests;
 
+import java.io.IOException;
+
 import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import base.ProjectSpecificationMethods;
@@ -9,12 +12,18 @@ import pages.ContactList;
 import pages.HomePage;
 
 public class TC_008_UiTest extends ProjectSpecificationMethods {
+	@BeforeTest
+	public void setup() {
+		testName="UI Test";
+		testDescription="Testing the user interface displays correctly ";
+		testAuthor=" Dheepikaa M G ";
+	}
 @Test
 public void UiTest() throws InterruptedException {
-	HomePage obj2=new HomePage(driver);
+	HomePage homepg=new HomePage(driver);
 	ContactList contactpg=new ContactList(driver);
 	AddContactPage addcontpge=new AddContactPage(driver);
-	obj2.enterEmail("Pranithad@gmail.com")
+	homepg.enterEmail("Pranithad@gmail.com")
 	.enterPassword("pranitha@123")
 	.clickLogin();
 	Thread.sleep(2000);

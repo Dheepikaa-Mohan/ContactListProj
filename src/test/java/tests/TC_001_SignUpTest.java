@@ -17,6 +17,10 @@ public class TC_001_SignUpTest extends ProjectSpecificationMethods {
 	@BeforeTest
 	public void setup() throws IOException {
 		sheetname="SignUpSheet";
+		testName="SignUp Test";
+		testDescription="Testing the signIn functionality of the application with valid and invalid credentials";
+		testAuthor=" Dheepikaa M G ";
+
 	}
 @Test(dataProvider = "readData")
 	public void signuptest(String firstName,String lastName,String email,String password,String testType,String expectedMessage) {

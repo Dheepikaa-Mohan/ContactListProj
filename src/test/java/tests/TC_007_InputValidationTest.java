@@ -15,20 +15,23 @@ public class TC_007_InputValidationTest extends ProjectSpecificationMethods{
 	@BeforeTest
 	public void setup() throws IOException {
 		sheetname="InputVal";
+		testName="Input Validation Test";
+		testDescription="This test verifies that user inputs are properly validated";
+		testAuthor=" Dheepikaa M G ";
 }
 	
 	@Test(dataProvider = "readData")
 	public static void inputValidationtest(String firstName,String lastName,String dob,String email,String phone,String address1,String address2,String city,String state,String postalCode,String country,String testType,String expectedMessage) {
-		HomePage obj2=new HomePage(driver);
-		obj2.enterEmail("gowri@gmail.com")
+		HomePage homepg=new HomePage(driver);
+		homepg.enterEmail("gowri@gmail.com")
 		.enterPassword("gowri@12345")
 		.clickLogin();
 	
-		ContactList obj3=new ContactList(driver);
-		obj3.clickContact();
-		AddContactPage obj4=new AddContactPage(driver);
+		ContactList clist=new ContactList(driver);
+		clist.clickContact();
+		AddContactPage addcpage=new AddContactPage(driver);
 	
-		obj4.enterFirstName(firstName)
+		addcpage.enterFirstName(firstName)
 		.enterLastName(lastName)
 		.enterDOB(dob)
 		.enterEmail(email)

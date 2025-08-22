@@ -19,6 +19,9 @@ public class TC_002_LogInTest extends ProjectSpecificationMethods {
 @BeforeTest
 	public void setup() throws IOException {
 		sheetname="LogInSheet";
+		testName="LogIn Test";
+		testDescription="Testing the login functionality with valid and invalid details";
+		testAuthor="Dheepikaa M G";
 	}
 	@Test(dataProvider = "readData")
 	public static void homepagedata(String Email,String Password,String testType, String expectedMessage) {

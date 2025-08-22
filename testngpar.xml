@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel="tests" name="Suite">
+<parameter name="url" value="https://thinking-tester-contact-list.herokuapp.com/"></parameter>
+  <test thread-count="5" parallel="tests" name="ChromeTest">
+  <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="tests.TC_002_LogInTest"/>
+    
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" parallel="tests" name="EdgeTest">
+  <parameter name="browser" value="Edge"></parameter>
+    <classes>
+      <class name="tests.TC_002_LogInTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
