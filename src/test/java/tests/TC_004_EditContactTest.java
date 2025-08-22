@@ -31,13 +31,13 @@ public class TC_004_EditContactTest extends ProjectSpecificationMethods {
 	        	 
 	        	 editContact.clickEdit();
 	        	Thread.sleep(5000);
-	        	 editContact.updatePhone("9962055332");
+	        	 editContact.updatePhone("9962080562");
 	        	 editContact.clickSubmit();
 	        	 WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10));
 	        	 WebElement updatedPhone = wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@id=\"phone\"]")));
 
 	             
-	        	Assert.assertEquals(updatedPhone.getText(), "9962055332", "Phonenum not updated correctly");
+	        	Assert.assertEquals(updatedPhone.getText(), "9962080562", "Phonenum not updated correctly");
 	        	System.out.println("The value is: " + driver.findElement(By.xpath("//span[@id='phone']")).getText());
 
 	        	
@@ -51,7 +51,7 @@ public class TC_004_EditContactTest extends ProjectSpecificationMethods {
 		        .clickLogin();
 
 		    EditContact editContact = new EditContact(driver);
-		    String originalPhone =driver.findElement(By.xpath("//td[text()='9962055332']")).getText();
+		    String originalPhone =driver.findElement(By.xpath("//td[text()='9962080562']")).getText();
 		    editContact.selectName();
 		 
 		    editContact.clickEdit();
@@ -60,7 +60,7 @@ public class TC_004_EditContactTest extends ProjectSpecificationMethods {
 		    editContact.clickCancel();
             Thread.sleep(5000);
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-            WebElement phoneAfterCancel = driver.findElement(By.xpath("//span[text()='9962055332']"));
+            WebElement phoneAfterCancel = driver.findElement(By.xpath("//span[text()='9962080562']"));
             
 		    Assert.assertEquals(phoneAfterCancel.getText(), originalPhone, "Phone number should remain unchanged after cancel");
 		    System.out.println("Cancel edit worked as expected.");

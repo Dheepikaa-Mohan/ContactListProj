@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-22T23:54:04 IST" name="Suite" finished-at="2025-08-22T23:57:22 IST" duration-ms="198177">
+  <suite started-at="2025-08-23T01:33:38 IST" name="Suite" finished-at="2025-08-23T01:36:54 IST" duration-ms="195410">
     <groups>
     </groups>
-    <test started-at="2025-08-22T23:54:04 IST" name="ChromeTest" finished-at="2025-08-22T23:57:05 IST" duration-ms="181197">
+    <test started-at="2025-08-23T01:33:38 IST" name="ChromeTest" finished-at="2025-08-23T01:36:37 IST" duration-ms="178301">
       <class name="tests.TC_001_SignUpTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:04 IST" name="setup" finished-at="2025-08-22T23:54:04 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:38 IST" name="setup" finished-at="2025-08-23T01:33:38 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:04 IST" name="testDetails" finished-at="2025-08-22T23:54:04 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:38 IST" name="testDetails" finished-at="2025-08-23T01:33:38 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:04 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:54:09 IST" duration-ms="4259" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:39 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:33:43 IST" duration-ms="4287" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="signuptest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:09 IST" name="signuptest" data-provider="readData" finished-at="2025-08-22T23:54:10 IST" duration-ms="1798" status="PASS">
+        <test-method signature="signuptest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:43 IST" name="signuptest" data-provider="readData" finished-at="2025-08-23T01:33:45 IST" duration-ms="1710" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[manjula200011@gmail.com]]>
+                <![CDATA[smanjulassn1811@gmail.com]]>
               </value>
             </param>
             <param index="3">
@@ -67,11 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signuptest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:10 IST" name="closeBrowser" finished-at="2025-08-22T23:54:11 IST" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:45 IST" name="closeBrowser" finished-at="2025-08-23T01:33:45 IST" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:11 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:54:14 IST" duration-ms="2837" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:45 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:33:48 IST" duration-ms="2683" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="signuptest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:14 IST" name="signuptest" data-provider="readData" finished-at="2025-08-22T23:54:15 IST" duration-ms="1121" status="PASS">
+        <test-method signature="signuptest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:48 IST" name="signuptest" data-provider="readData" finished-at="2025-08-23T01:33:49 IST" duration-ms="1149" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,11 +123,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signuptest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:15 IST" name="closeBrowser" finished-at="2025-08-22T23:54:15 IST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:49 IST" name="closeBrowser" finished-at="2025-08-23T01:33:50 IST" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:15 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:54:18 IST" duration-ms="2698" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:50 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:33:52 IST" duration-ms="2680" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,7 +143,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="signuptest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:18 IST" name="signuptest" data-provider="readData" finished-at="2025-08-22T23:54:19 IST" duration-ms="1124" status="PASS">
+        <test-method signature="signuptest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:52 IST" name="signuptest" data-provider="readData" finished-at="2025-08-23T01:33:53 IST" duration-ms="1122" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,11 +179,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signuptest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:19 IST" name="closeBrowser" finished-at="2025-08-22T23:54:19 IST" duration-ms="218" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:54 IST" name="closeBrowser" finished-at="2025-08-23T01:33:54 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:19 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:54:22 IST" duration-ms="2758" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:54 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:33:56 IST" duration-ms="2584" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -199,7 +199,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="signuptest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:22 IST" name="signuptest" data-provider="readData" finished-at="2025-08-22T23:54:23 IST" duration-ms="1166" status="PASS">
+        <test-method signature="signuptest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:56 IST" name="signuptest" data-provider="readData" finished-at="2025-08-23T01:33:57 IST" duration-ms="1088" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -235,21 +235,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signuptest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_001_SignUpTest@23348b5d]" started-at="2025-08-22T23:54:23 IST" name="closeBrowser" finished-at="2025-08-22T23:54:23 IST" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_001_SignUpTest@131ef10]" started-at="2025-08-23T01:33:58 IST" name="closeBrowser" finished-at="2025-08-23T01:33:58 IST" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.TC_001_SignUpTest -->
       <class name="tests.TC_003_AddContactTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:54:04 IST" name="setup" finished-at="2025-08-22T23:54:04 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:33:38 IST" name="setup" finished-at="2025-08-23T01:33:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:54:41 IST" name="testDetails" finished-at="2025-08-22T23:54:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:34:15 IST" name="testDetails" finished-at="2025-08-23T01:34:15 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:54:42 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:54:44 IST" duration-ms="2774" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:34:16 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:34:18 IST" duration-ms="2657" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -265,7 +265,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="addcontactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:54:44 IST" name="addcontactTest" data-provider="readData" finished-at="2025-08-22T23:54:48 IST" duration-ms="3359" status="PASS">
+        <test-method signature="addcontactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:34:18 IST" name="addcontactTest" data-provider="readData" finished-at="2025-08-23T01:34:22 IST" duration-ms="3457" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -336,11 +336,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addcontactTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:54:48 IST" name="closeBrowser" finished-at="2025-08-22T23:54:48 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:34:22 IST" name="closeBrowser" finished-at="2025-08-23T01:34:22 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:54:48 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:54:51 IST" duration-ms="2702" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:34:22 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:34:25 IST" duration-ms="2718" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -356,7 +356,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="addcontactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:54:51 IST" name="addcontactTest" data-provider="readData" finished-at="2025-08-22T23:54:53 IST" duration-ms="2678" status="PASS">
+        <test-method signature="addcontactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:34:25 IST" name="addcontactTest" data-provider="readData" finished-at="2025-08-23T01:34:27 IST" duration-ms="2721" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -427,11 +427,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addcontactTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:54:53 IST" name="closeBrowser" finished-at="2025-08-22T23:54:54 IST" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:34:28 IST" name="closeBrowser" finished-at="2025-08-23T01:34:28 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:54:54 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:54:56 IST" duration-ms="2573" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:34:28 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:34:30 IST" duration-ms="2651" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -447,7 +447,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="addcontactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:54:56 IST" name="addcontactTest" data-provider="readData" finished-at="2025-08-22T23:54:59 IST" duration-ms="2488" status="PASS">
+        <test-method signature="addcontactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:34:30 IST" name="addcontactTest" data-provider="readData" finished-at="2025-08-23T01:34:33 IST" duration-ms="2468" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -518,11 +518,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addcontactTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:54:59 IST" name="closeBrowser" finished-at="2025-08-22T23:54:59 IST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:34:33 IST" name="closeBrowser" finished-at="2025-08-23T01:34:33 IST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:54:59 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:55:02 IST" duration-ms="2715" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:34:33 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:34:36 IST" duration-ms="2741" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -538,7 +538,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="addcontactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:55:02 IST" name="addcontactTest" data-provider="readData" finished-at="2025-08-22T23:55:05 IST" duration-ms="3587" status="PASS">
+        <test-method signature="addcontactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:34:36 IST" name="addcontactTest" data-provider="readData" finished-at="2025-08-23T01:34:40 IST" duration-ms="3610" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -609,21 +609,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addcontactTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_003_AddContactTest@69453e37]" started-at="2025-08-22T23:55:06 IST" name="closeBrowser" finished-at="2025-08-22T23:55:06 IST" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_003_AddContactTest@7c9d8e2]" started-at="2025-08-23T01:34:40 IST" name="closeBrowser" finished-at="2025-08-23T01:34:40 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.TC_003_AddContactTest -->
       <class name="tests.TC_005_DeleteContactTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_005_DeleteContactTest@ae13544]" started-at="2025-08-22T23:54:04 IST" name="setup" finished-at="2025-08-22T23:54:04 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_005_DeleteContactTest@6200f9cb]" started-at="2025-08-23T01:33:38 IST" name="setup" finished-at="2025-08-23T01:33:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_005_DeleteContactTest@ae13544]" started-at="2025-08-22T23:55:41 IST" name="testDetails" finished-at="2025-08-22T23:55:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_005_DeleteContactTest@6200f9cb]" started-at="2025-08-23T01:35:16 IST" name="testDetails" finished-at="2025-08-23T01:35:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_005_DeleteContactTest@ae13544]" started-at="2025-08-22T23:55:41 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:55:47 IST" duration-ms="5766" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_005_DeleteContactTest@6200f9cb]" started-at="2025-08-23T01:35:16 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:35:19 IST" duration-ms="2661" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -639,49 +639,49 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="DeleteContactTest()[pri:0, instance:tests.TC_005_DeleteContactTest@ae13544]" started-at="2025-08-22T23:55:47 IST" name="DeleteContactTest" finished-at="2025-08-22T23:56:40 IST" duration-ms="52653" status="PASS">
+        <test-method signature="DeleteContactTest()[pri:0, instance:tests.TC_005_DeleteContactTest@6200f9cb]" started-at="2025-08-23T01:35:19 IST" name="DeleteContactTest" finished-at="2025-08-23T01:36:11 IST" duration-ms="52683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteContactTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_005_DeleteContactTest@ae13544]" started-at="2025-08-22T23:56:40 IST" name="closeBrowser" finished-at="2025-08-22T23:56:40 IST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_005_DeleteContactTest@6200f9cb]" started-at="2025-08-23T01:36:11 IST" name="closeBrowser" finished-at="2025-08-23T01:36:12 IST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.TC_005_DeleteContactTest -->
       <class name="tests.TC_006_SessionNavigationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_006_SessionNavigationTest@3d34d211]" started-at="2025-08-22T23:54:04 IST" name="setup" finished-at="2025-08-22T23:54:04 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_006_SessionNavigationTest@2002fc1d]" started-at="2025-08-23T01:33:38 IST" name="setup" finished-at="2025-08-23T01:33:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_006_SessionNavigationTest@3d34d211]" started-at="2025-08-22T23:56:40 IST" name="testDetails" finished-at="2025-08-22T23:56:40 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_006_SessionNavigationTest@2002fc1d]" started-at="2025-08-23T01:36:12 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:36:16 IST" duration-ms="3794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndUrlLoad -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_006_SessionNavigationTest@2002fc1d]" started-at="2025-08-23T01:36:12 IST" name="testDetails" finished-at="2025-08-23T01:36:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_006_SessionNavigationTest@3d34d211]" started-at="2025-08-22T23:56:40 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:56:44 IST" duration-ms="3793" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="testLogoutRedirectsToLoginPage()[pri:0, instance:tests.TC_006_SessionNavigationTest@3d34d211]" started-at="2025-08-22T23:56:44 IST" name="testLogoutRedirectsToLoginPage" finished-at="2025-08-22T23:56:48 IST" duration-ms="3690" status="PASS">
+        <test-method signature="testLogoutRedirectsToLoginPage()[pri:0, instance:tests.TC_006_SessionNavigationTest@2002fc1d]" started-at="2025-08-23T01:36:16 IST" name="testLogoutRedirectsToLoginPage" finished-at="2025-08-23T01:36:19 IST" duration-ms="3712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogoutRedirectsToLoginPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_006_SessionNavigationTest@3d34d211]" started-at="2025-08-22T23:56:48 IST" name="closeBrowser" finished-at="2025-08-22T23:56:48 IST" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_006_SessionNavigationTest@2002fc1d]" started-at="2025-08-23T01:36:19 IST" name="closeBrowser" finished-at="2025-08-23T01:36:20 IST" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_006_SessionNavigationTest@3d34d211]" started-at="2025-08-22T23:56:48 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:56:51 IST" duration-ms="2588" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_006_SessionNavigationTest@2002fc1d]" started-at="2025-08-23T01:36:20 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:36:22 IST" duration-ms="2697" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -697,15 +697,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="testLoginStateOnRefresh()[pri:1, instance:tests.TC_006_SessionNavigationTest@3d34d211]" started-at="2025-08-22T23:56:51 IST" name="testLoginStateOnRefresh" finished-at="2025-08-22T23:56:56 IST" duration-ms="5727" status="PASS">
+        <test-method signature="testLoginStateOnRefresh()[pri:1, instance:tests.TC_006_SessionNavigationTest@2002fc1d]" started-at="2025-08-23T01:36:22 IST" name="testLoginStateOnRefresh" finished-at="2025-08-23T01:36:28 IST" duration-ms="5771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginStateOnRefresh -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_006_SessionNavigationTest@3d34d211]" started-at="2025-08-22T23:56:57 IST" name="closeBrowser" finished-at="2025-08-22T23:56:57 IST" duration-ms="275" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_006_SessionNavigationTest@2002fc1d]" started-at="2025-08-23T01:36:28 IST" name="closeBrowser" finished-at="2025-08-23T01:36:28 IST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_006_SessionNavigationTest@3d34d211]" started-at="2025-08-22T23:56:57 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:56:59 IST" duration-ms="2614" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_006_SessionNavigationTest@2002fc1d]" started-at="2025-08-23T01:36:28 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:36:31 IST" duration-ms="2746" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -721,21 +721,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="testBackNavigationAfterLogout()[pri:2, instance:tests.TC_006_SessionNavigationTest@3d34d211]" started-at="2025-08-22T23:56:59 IST" name="testBackNavigationAfterLogout" finished-at="2025-08-22T23:57:05 IST" duration-ms="5102" status="PASS">
+        <test-method signature="testBackNavigationAfterLogout()[pri:2, instance:tests.TC_006_SessionNavigationTest@2002fc1d]" started-at="2025-08-23T01:36:31 IST" name="testBackNavigationAfterLogout" finished-at="2025-08-23T01:36:36 IST" duration-ms="5217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBackNavigationAfterLogout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_006_SessionNavigationTest@3d34d211]" started-at="2025-08-22T23:57:05 IST" name="closeBrowser" finished-at="2025-08-22T23:57:05 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_006_SessionNavigationTest@2002fc1d]" started-at="2025-08-23T01:36:37 IST" name="closeBrowser" finished-at="2025-08-23T01:36:37 IST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.TC_006_SessionNavigationTest -->
       <class name="tests.TC_004_EditContactTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_004_EditContactTest@6f4a47c7]" started-at="2025-08-22T23:54:04 IST" name="setup" finished-at="2025-08-22T23:54:04 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_004_EditContactTest@20d525]" started-at="2025-08-23T01:33:38 IST" name="setup" finished-at="2025-08-23T01:33:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_004_EditContactTest@6f4a47c7]" started-at="2025-08-22T23:55:06 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:55:08 IST" duration-ms="2714" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_004_EditContactTest@20d525]" started-at="2025-08-23T01:34:40 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:34:43 IST" duration-ms="2682" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -751,19 +751,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_004_EditContactTest@6f4a47c7]" started-at="2025-08-22T23:55:06 IST" name="testDetails" finished-at="2025-08-22T23:55:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_004_EditContactTest@20d525]" started-at="2025-08-23T01:34:40 IST" name="testDetails" finished-at="2025-08-23T01:34:40 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method signature="editContactTest()[pri:0, instance:tests.TC_004_EditContactTest@6f4a47c7]" started-at="2025-08-22T23:55:08 IST" name="editContactTest" finished-at="2025-08-22T23:55:18 IST" duration-ms="9212" status="PASS">
+        <test-method signature="editContactTest()[pri:0, instance:tests.TC_004_EditContactTest@20d525]" started-at="2025-08-23T01:34:43 IST" name="editContactTest" finished-at="2025-08-23T01:34:52 IST" duration-ms="9129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editContactTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_004_EditContactTest@6f4a47c7]" started-at="2025-08-22T23:55:18 IST" name="closeBrowser" finished-at="2025-08-22T23:55:18 IST" duration-ms="299" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_004_EditContactTest@20d525]" started-at="2025-08-23T01:34:52 IST" name="closeBrowser" finished-at="2025-08-23T01:34:52 IST" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_004_EditContactTest@6f4a47c7]" started-at="2025-08-22T23:55:18 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:55:22 IST" duration-ms="3695" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_004_EditContactTest@20d525]" started-at="2025-08-23T01:34:52 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:34:56 IST" duration-ms="3796" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -779,15 +779,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="verifyEditCancelRetainsOriginalDetails()[pri:1, instance:tests.TC_004_EditContactTest@6f4a47c7]" started-at="2025-08-22T23:55:22 IST" name="verifyEditCancelRetainsOriginalDetails" finished-at="2025-08-22T23:55:32 IST" duration-ms="10266" status="PASS">
+        <test-method signature="verifyEditCancelRetainsOriginalDetails()[pri:1, instance:tests.TC_004_EditContactTest@20d525]" started-at="2025-08-23T01:34:56 IST" name="verifyEditCancelRetainsOriginalDetails" finished-at="2025-08-23T01:35:06 IST" duration-ms="10399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEditCancelRetainsOriginalDetails -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_004_EditContactTest@6f4a47c7]" started-at="2025-08-22T23:55:32 IST" name="closeBrowser" finished-at="2025-08-22T23:55:32 IST" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_004_EditContactTest@20d525]" started-at="2025-08-23T01:35:06 IST" name="closeBrowser" finished-at="2025-08-23T01:35:07 IST" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_004_EditContactTest@6f4a47c7]" started-at="2025-08-22T23:55:32 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:55:36 IST" duration-ms="3823" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_004_EditContactTest@20d525]" started-at="2025-08-23T01:35:07 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:35:11 IST" duration-ms="4182" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -803,25 +803,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="verifyMissingLastNameTriggersValidationError()[pri:2, instance:tests.TC_004_EditContactTest@6f4a47c7]" started-at="2025-08-22T23:55:36 IST" name="verifyMissingLastNameTriggersValidationError" finished-at="2025-08-22T23:55:41 IST" duration-ms="4806" status="PASS">
+        <test-method signature="verifyMissingLastNameTriggersValidationError()[pri:2, instance:tests.TC_004_EditContactTest@20d525]" started-at="2025-08-23T01:35:11 IST" name="verifyMissingLastNameTriggersValidationError" finished-at="2025-08-23T01:35:16 IST" duration-ms="4821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMissingLastNameTriggersValidationError -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_004_EditContactTest@6f4a47c7]" started-at="2025-08-22T23:55:41 IST" name="closeBrowser" finished-at="2025-08-22T23:55:41 IST" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_004_EditContactTest@20d525]" started-at="2025-08-23T01:35:16 IST" name="closeBrowser" finished-at="2025-08-23T01:35:16 IST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.TC_004_EditContactTest -->
       <class name="tests.TC_002_LogInTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:04 IST" name="setup" finished-at="2025-08-22T23:54:04 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:33:38 IST" name="setup" finished-at="2025-08-23T01:33:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:23 IST" name="testDetails" finished-at="2025-08-22T23:54:23 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:33:58 IST" name="testDetails" finished-at="2025-08-23T01:33:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:24 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:54:26 IST" duration-ms="2742" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:33:58 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:34:00 IST" duration-ms="2648" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -837,7 +837,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="homepagedata(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:26 IST" name="homepagedata" data-provider="readData" finished-at="2025-08-22T23:54:27 IST" duration-ms="1119" status="PASS">
+        <test-method signature="homepagedata(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:00 IST" name="homepagedata" data-provider="readData" finished-at="2025-08-23T01:34:02 IST" duration-ms="1079" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -863,11 +863,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepagedata -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:27 IST" name="closeBrowser" finished-at="2025-08-22T23:54:28 IST" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:02 IST" name="closeBrowser" finished-at="2025-08-23T01:34:02 IST" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:28 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:54:30 IST" duration-ms="2778" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:02 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:34:04 IST" duration-ms="2646" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -883,7 +883,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="homepagedata(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:30 IST" name="homepagedata" data-provider="readData" finished-at="2025-08-22T23:54:31 IST" duration-ms="505" status="PASS">
+        <test-method signature="homepagedata(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:04 IST" name="homepagedata" data-provider="readData" finished-at="2025-08-23T01:34:05 IST" duration-ms="489" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -909,11 +909,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepagedata -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:31 IST" name="closeBrowser" finished-at="2025-08-22T23:54:31 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:05 IST" name="closeBrowser" finished-at="2025-08-23T01:34:05 IST" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:31 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:54:34 IST" duration-ms="2653" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:05 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:34:08 IST" duration-ms="2679" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -929,7 +929,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="homepagedata(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:34 IST" name="homepagedata" data-provider="readData" finished-at="2025-08-22T23:54:34 IST" duration-ms="485" status="PASS">
+        <test-method signature="homepagedata(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:08 IST" name="homepagedata" data-provider="readData" finished-at="2025-08-23T01:34:08 IST" duration-ms="499" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -955,11 +955,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepagedata -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:35 IST" name="closeBrowser" finished-at="2025-08-22T23:54:35 IST" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:09 IST" name="closeBrowser" finished-at="2025-08-23T01:34:09 IST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:35 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:54:37 IST" duration-ms="2650" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:09 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:34:12 IST" duration-ms="2731" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -975,7 +975,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="homepagedata(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:37 IST" name="homepagedata" data-provider="readData" finished-at="2025-08-22T23:54:38 IST" duration-ms="502" status="PASS">
+        <test-method signature="homepagedata(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:12 IST" name="homepagedata" data-provider="readData" finished-at="2025-08-23T01:34:12 IST" duration-ms="440" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1001,11 +1001,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepagedata -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:38 IST" name="closeBrowser" finished-at="2025-08-22T23:54:38 IST" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:12 IST" name="closeBrowser" finished-at="2025-08-23T01:34:12 IST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:38 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:54:41 IST" duration-ms="2686" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:12 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:34:15 IST" duration-ms="2654" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1021,7 +1021,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="homepagedata(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:41 IST" name="homepagedata" data-provider="readData" finished-at="2025-08-22T23:54:41 IST" duration-ms="223" status="PASS">
+        <test-method signature="homepagedata(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:15 IST" name="homepagedata" data-provider="readData" finished-at="2025-08-23T01:34:15 IST" duration-ms="182" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1047,27 +1047,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepagedata -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_002_LogInTest@2002fc1d]" started-at="2025-08-22T23:54:41 IST" name="closeBrowser" finished-at="2025-08-22T23:54:41 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_002_LogInTest@37ceb1df]" started-at="2025-08-23T01:34:15 IST" name="closeBrowser" finished-at="2025-08-23T01:34:15 IST" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.TC_002_LogInTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2025-08-22T23:57:05 IST" name="EdgeTest" finished-at="2025-08-22T23:57:22 IST" duration-ms="16958">
+    <test started-at="2025-08-23T01:36:37 IST" name="EdgeTest" finished-at="2025-08-23T01:36:54 IST" duration-ms="17088">
       <class name="tests.TC_007_InputValidationTest">
-        <test-method is-config="true" signature="createReport()[pri:0, instance:tests.TC_007_InputValidationTest@3c0be339]" started-at="2025-08-22T23:54:03 IST" name="createReport" finished-at="2025-08-22T23:54:04 IST" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:tests.TC_007_InputValidationTest@6db9f5a4]" started-at="2025-08-23T01:33:38 IST" name="createReport" finished-at="2025-08-23T01:33:38 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_007_InputValidationTest@3c0be339]" started-at="2025-08-22T23:57:05 IST" name="setup" finished-at="2025-08-22T23:57:05 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_007_InputValidationTest@6db9f5a4]" started-at="2025-08-23T01:36:37 IST" name="setup" finished-at="2025-08-23T01:36:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_007_InputValidationTest@3c0be339]" started-at="2025-08-22T23:57:05 IST" name="testDetails" finished-at="2025-08-22T23:57:05 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_007_InputValidationTest@6db9f5a4]" started-at="2025-08-23T01:36:37 IST" name="testDetails" finished-at="2025-08-23T01:36:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_007_InputValidationTest@3c0be339]" started-at="2025-08-22T23:57:05 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:57:07 IST" duration-ms="2517" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_007_InputValidationTest@6db9f5a4]" started-at="2025-08-23T01:36:37 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:36:39 IST" duration-ms="2401" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1083,7 +1083,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="inputValidationtest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_007_InputValidationTest@3c0be339]" started-at="2025-08-22T23:57:07 IST" name="inputValidationtest" data-provider="readData" finished-at="2025-08-22T23:57:10 IST" duration-ms="2792" status="PASS">
+        <test-method signature="inputValidationtest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_007_InputValidationTest@6db9f5a4]" started-at="2025-08-23T01:36:39 IST" name="inputValidationtest" data-provider="readData" finished-at="2025-08-23T01:36:42 IST" duration-ms="2754" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1154,11 +1154,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputValidationtest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_007_InputValidationTest@3c0be339]" started-at="2025-08-22T23:57:10 IST" name="closeBrowser" finished-at="2025-08-22T23:57:10 IST" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_007_InputValidationTest@6db9f5a4]" started-at="2025-08-23T01:36:42 IST" name="closeBrowser" finished-at="2025-08-23T01:36:42 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_007_InputValidationTest@3c0be339]" started-at="2025-08-22T23:57:10 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:57:13 IST" duration-ms="2258" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_007_InputValidationTest@6db9f5a4]" started-at="2025-08-23T01:36:42 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:36:45 IST" duration-ms="2358" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1174,7 +1174,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="inputValidationtest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_007_InputValidationTest@3c0be339]" started-at="2025-08-22T23:57:13 IST" name="inputValidationtest" data-provider="readData" finished-at="2025-08-22T23:57:16 IST" duration-ms="3340" status="PASS">
+        <test-method signature="inputValidationtest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_007_InputValidationTest@6db9f5a4]" started-at="2025-08-23T01:36:45 IST" name="inputValidationtest" data-provider="readData" finished-at="2025-08-23T01:36:48 IST" duration-ms="3484" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1245,25 +1245,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputValidationtest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_007_InputValidationTest@3c0be339]" started-at="2025-08-22T23:57:16 IST" name="closeBrowser" finished-at="2025-08-22T23:57:16 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_007_InputValidationTest@6db9f5a4]" started-at="2025-08-23T01:36:48 IST" name="closeBrowser" finished-at="2025-08-23T01:36:48 IST" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.TC_007_InputValidationTest@3c0be339]" started-at="2025-08-22T23:57:22 IST" name="closeReport" finished-at="2025-08-22T23:57:22 IST" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.TC_007_InputValidationTest@6db9f5a4]" started-at="2025-08-23T01:36:54 IST" name="closeReport" finished-at="2025-08-23T01:36:54 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->
       </class> <!-- tests.TC_007_InputValidationTest -->
       <class name="tests.TC_008_UiTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_008_UiTest@15ca7889]" started-at="2025-08-22T23:57:05 IST" name="setup" finished-at="2025-08-22T23:57:05 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_008_UiTest@5f8edcc5]" started-at="2025-08-23T01:36:37 IST" name="setup" finished-at="2025-08-23T01:36:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_008_UiTest@15ca7889]" started-at="2025-08-22T23:57:16 IST" name="testDetails" finished-at="2025-08-22T23:57:16 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_008_UiTest@15ca7889]" started-at="2025-08-22T23:57:16 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-22T23:57:19 IST" duration-ms="2487" status="PASS">
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_008_UiTest@5f8edcc5]" started-at="2025-08-23T01:36:48 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-23T01:36:51 IST" duration-ms="2471" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1279,11 +1275,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchAndUrlLoad -->
-        <test-method signature="UiTest()[pri:0, instance:tests.TC_008_UiTest@15ca7889]" started-at="2025-08-22T23:57:19 IST" name="UiTest" finished-at="2025-08-22T23:57:22 IST" duration-ms="2813" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_008_UiTest@5f8edcc5]" started-at="2025-08-23T01:36:48 IST" name="testDetails" finished-at="2025-08-23T01:36:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method signature="UiTest()[pri:0, instance:tests.TC_008_UiTest@5f8edcc5]" started-at="2025-08-23T01:36:51 IST" name="UiTest" finished-at="2025-08-23T01:36:54 IST" duration-ms="2844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UiTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_008_UiTest@15ca7889]" started-at="2025-08-22T23:57:22 IST" name="closeBrowser" finished-at="2025-08-22T23:57:22 IST" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_008_UiTest@5f8edcc5]" started-at="2025-08-23T01:36:54 IST" name="closeBrowser" finished-at="2025-08-23T01:36:54 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
