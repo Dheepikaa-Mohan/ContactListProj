@@ -57,4 +57,5 @@ public void setup() {
 	     Assert.assertTrue(isContactDeleted, "Deleted contact still appears after page refresh");
 	     System.out.println("Contact successfully deleted and not visible after refresh.");
 		   
-	}}
+	}
+}

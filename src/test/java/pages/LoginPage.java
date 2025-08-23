@@ -36,7 +36,6 @@ public class LoginPage extends ProjectSpecificationMethods {
 
    public void clickLogin() {
        loginButton.click();
-      // return new ContactList(driver);
    }
    public boolean isLoginPageDisplayed() {
        return loginButton.isDisplayed();

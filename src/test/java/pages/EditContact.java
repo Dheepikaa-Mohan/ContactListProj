@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import base.ProjectSpecificationMethods;
 
 public class EditContact extends ProjectSpecificationMethods{
-//sankari28,Dheeru@123;
+
 	@FindBy(xpath = "//span[@id='phone']")
 	private WebElement updatedPhone;
 
@@ -66,14 +66,6 @@ public void selectName() {
 	    public String getErrorText() {
 	        return errorMessage.getText();
 	    }
-	
-public String getFirstRowPhone() {
-    try {
-        return contactRows.get(0).findElements(By.tagName("td")).get(4).getText().trim();
-    } catch (NoSuchElementException e) {
-        System.out.println("Unable to extract phone number from contact row.");
-        return "";
-    }}
 }
 
 
