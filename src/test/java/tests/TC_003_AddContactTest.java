@@ -25,7 +25,7 @@ public class TC_003_AddContactTest extends ProjectSpecificationMethods {
 		testAuthor=" Dheepikaa M G ";
 }
 	@Test(dataProvider = "readData")
-	public static void addcontactTest(String firstName,String lastName,String dob,String email,String phone,String address1,String address2,String city,String state,String postalCode,String country,String testType,String expectedMessage) {
+	public static void addContactTest(String firstName,String lastName,String dob,String email,String phone,String address1,String address2,String city,String state,String postalCode,String country,String testType,String expectedMessage) {
 		new HomePage(driver)
 		.enterEmail("guviuser282@gmail.com")
 		.enterPassword("Sai@12345.")
